@@ -1,6 +1,6 @@
-# Basic Google Spreadsheet Access with Promises and Simple Cell Notation (node.js)
+This is forked project. Original is https://github.com/ranhalprin/node-google-spreadsheet-as-promised
 
-[![NPM version](https://badge.fury.io/js/google-spreadsheet-as-promised.png)](http://badge.fury.io/js/google-spreadsheet-as-promised)
+# Basic Google Spreadsheet Access with Promises and Simple Cell Notation (node.js)
 
 This node.js module allows connecting to a Google Spreadsheet, changing cell values and reading cell values. It is useful in the context where a spreadsheet has complicated logic that you do not want to move into code, or if you want to validate that your code behaves the same as the spreadsheet for different inputs.
 
@@ -9,7 +9,7 @@ This node.js module allows connecting to a Google Spreadsheet, changing cell val
 
 ## Usage
 
-The following usage example covers most provided functionality. 
+The following usage example covers most provided functionality.
 It shows how to change some parameter cells in the spreadsheet and then read values from other cells.
 
 ```javascript
@@ -219,7 +219,7 @@ NOTE: The wrapper is very limited and supports only a limited set of functionali
 
 ### Contributions
 
-If you need more features or find bugs, please contribute your improvements through pull requests in [our github](https://github.com/ranhalprin/node-google-spreadsheet-as-promised). Please also update usage.js with an example for the new functionality example.
+If you need more features or find bugs, please contribute your improvements through pull requests in [our github](https://github.com/nota/node-google-spreadsheet-as-promised). Please also update usage.js with an example for the new functionality example.
 
 ### Updates to underlying module
 
@@ -230,8 +230,7 @@ In order to maintain compatability this wrapper is locked to a specific version 
 Support bulk setting of multiple cells in one API call to reduce network overhead and response time.
 
 ## Links
-- <https://github.com/ranhalprin/node-google-spreadsheet-as-promised>
-- <https://www.npmjs.com/package/google-spreadsheet-as-promised/>
+- <https://github.com/nota/node-google-spreadsheet-as-promised>
 - <https://www.npmjs.com/package/google-spreadsheet/>
 - <https://developers.google.com/google-apps/spreadsheets/>
 

@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ranhalprin/node-google-spreadsheet-as-promised.git"
+    "url": "git+https://github.com/nota/node-google-spreadsheet-as-promised.git"
   },
   "keywords": [
     "excel",
@@ -18,12 +18,12 @@
     "nodejs",
     "node"
   ],
-  "author": "ranhalprin",
+  "author": "Sho Hashimoto <hashimoto@shokai.org>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/ranhalprin/node-google-spreadsheet-as-promised/issues"
+    "url": "https://github.com/nota/node-google-spreadsheet-as-promised/issues"
   },
-  "homepage": "https://github.com/ranhalprin/node-google-spreadsheet-as-promised#readme",
+  "homepage": "https://github.com/nota/node-google-spreadsheet-as-promised#readme",
   "dependencies": {
     "bluebird": "^3.4.6",
     "google-spreadsheet": "2.0.3"
