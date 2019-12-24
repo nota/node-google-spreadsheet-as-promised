@@ -1,6 +1,6 @@
 {
   "name": "@notainc/google-spreadsheet-as-promised",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "description": "Basic Google Spreadsheet functionality - load a spreadsheet, switch workbooks, read and write cells, wrapped in Promise interface and with human readable cell designation.",
   "main": "index.js",
   "scripts": {
