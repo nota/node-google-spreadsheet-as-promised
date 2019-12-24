@@ -1,4 +1,3 @@
-var Promise = require('bluebird');
 var GoogleSpreadsheetAsPromised = require('./index.js'); // require('google-spreadsheet-as-promised') externally
 
 var CREDS = require('./google-api-creds.json');

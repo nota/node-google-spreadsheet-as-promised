@@ -13,7 +13,6 @@ The following usage example covers most provided functionality.
 It shows how to change some parameter cells in the spreadsheet and then read values from other cells.
 
 ```javascript
-var Promise = require('bluebird');
 var GoogleSpreadsheetAsPromised = require('google-spreadsheet-as-promised');
 
 var CREDS = require('./google-api-creds.json');
@@ -78,12 +77,6 @@ function getResultWithParameter(parameters) {
     });
 };
 ```
-
------------------------------------------
-
-## API
-
-This module uses [Blubird Promises](http://bluebirdjs.com/docs/getting-started.html).
 
 ----------------------------------
 
@@ -212,7 +205,7 @@ creds.client_email = process.env.GOOGLE_API_EMAIL;
 ## Acknowledgement
 
 This module wraps the [google-spreadsheet nodejs module](https://www.npmjs.org/package/google-spreadsheet). It provides two changes in API:
-- Instead of callbacks, it uses bluebird promises for easier flow control
+- Instead of callbacks, it uses Promise for easier flow control
 - Instead of supplying the cell ranges as numbered parameters, they are supplied as strings in standard spreadsheet notation
 
 NOTE: The wrapper is very limited and supports only a limited set of functionality the exists in the original module.

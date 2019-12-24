@@ -1,4 +1,3 @@
-var Promise = require('bluebird');
 var GoogleSpreadsheet = require('google-spreadsheet');
 
 var parseColumn = function(string) {
