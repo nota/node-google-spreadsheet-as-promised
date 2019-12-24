@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/nota/node-google-spreadsheet-as-promised#readme",
   "dependencies": {
-    "bluebird": "^3.4.6",
     "google-spreadsheet": "2.0.3"
   },
   "devDependencies": {}
