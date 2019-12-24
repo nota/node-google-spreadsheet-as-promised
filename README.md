@@ -231,6 +231,7 @@ Support bulk setting of multiple cells in one API call to reduce network overhea
 
 ## Links
 - <https://github.com/nota/node-google-spreadsheet-as-promised>
+- <https://www.npmjs.com/package/@notainc/google-spreadsheet-as-promised>
 - <https://www.npmjs.com/package/google-spreadsheet/>
 - <https://developers.google.com/google-apps/spreadsheets/>
 

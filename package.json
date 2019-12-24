@@ -1,5 +1,5 @@
 {
-  "name": "google-spreadsheet-as-promised",
+  "name": "@notainc/google-spreadsheet-as-promised",
   "version": "0.2.11",
   "description": "Basic Google Spreadsheet functionality - load a spreadsheet, switch workbooks, read and write cells, wrapped in Promise interface and with human readable cell designation.",
   "main": "index.js",
@@ -27,5 +27,6 @@
   "dependencies": {
     "bluebird": "^3.4.6",
     "google-spreadsheet": "2.0.3"
-  }
+  },
+  "devDependencies": {}
 }
