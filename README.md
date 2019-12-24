@@ -5,7 +5,7 @@ This is forked project. Original is https://github.com/ranhalprin/node-google-sp
 This node.js module allows connecting to a Google Spreadsheet, changing cell values and reading cell values. It is useful in the context where a spreadsheet has complicated logic that you do not want to move into code, or if you want to validate that your code behaves the same as the spreadsheet for different inputs.
 
 ## Installation
-``` npm install google-spreadsheet-as-promised ```
+``` npm install @notainc/google-spreadsheet-as-promised ```
 
 ## Usage
 
