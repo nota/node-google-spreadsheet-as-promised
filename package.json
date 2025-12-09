@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/nota/node-google-spreadsheet-as-promised#readme",
   "dependencies": {
-    "google-spreadsheet": "2.0.3"
+    "google-spreadsheet": "2.0.9"
   },
   "devDependencies": {}
 }
